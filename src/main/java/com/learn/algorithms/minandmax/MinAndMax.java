@@ -1,4 +1,4 @@
-package com.learn.algorithms.minAndmax;
+package com.learn.algorithms.minandmax;
 
 
 /**

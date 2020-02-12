@@ -22,7 +22,7 @@ public class StatckTest {
                 stack.push(chars[i]);
             }else{
                 //为右括号时，如果栈为空或者栈顶与该括号类型不匹配返回false
-                if(stack.empty() || map.get(chars[i]).equals(stack.pop())){
+                if(stack.empty() || !map.get(chars[i]).equals(stack.pop())){
                     return false;
                 }
             }
@@ -32,7 +32,7 @@ public class StatckTest {
     }
 
     public static void main(String[] args) {
-        String params = "()[]{}";
+        String params = "{()}";
         boolean result = isValid(params);
         System.out.println(result);
     }

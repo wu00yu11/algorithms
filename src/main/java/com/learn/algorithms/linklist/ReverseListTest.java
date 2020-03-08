@@ -11,7 +11,7 @@ public class ReverseListTest {
      * @param head
      * @return
      */
-    private static ListNode reverse(ListNode head){
+    private static ListNode cycle(ListNode head){
         /**当前节点*/
         ListNode current = head;
         /**上个节点*/
@@ -31,6 +31,21 @@ public class ReverseListTest {
         return prev;
     }
 
+    /**
+     * 递归方式处理
+     * @param head
+     * @return
+     */
+    private static ListNode recursive(ListNode head){
+        if (head == null || head.next == null){
+            return head;
+        }
+        ListNode newHead = recursive(head.next);
+        head.next.next = head;
+        head.next =null;
+        return newHead;
+    }
+
     public static void main(String[] args) {
         ListNode node1 = new ListNode();
         ListNode node2 = new ListNode();
@@ -41,7 +56,7 @@ public class ReverseListTest {
         node2.next = node3;
         node3.val=3;
         node3.next=null;
-        ListNode result =reverse(node1);
+        ListNode result = recursive(node1);
         while (result!=null){
             System.out.println(result.val);
             result = result.next;

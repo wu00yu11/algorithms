@@ -1,6 +1,6 @@
 ##1. 时间复杂度
 
-![时间复杂度](https://github.com/wu00yu11/algorithms/tree/master/doc/img/timeComplexityChart.jpg)
+![时间复杂度](doc/img/timeComplexityChart.jpg)
 
 ##2. 基本数据结构
 

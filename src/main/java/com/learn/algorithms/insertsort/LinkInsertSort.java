@@ -1,7 +1,5 @@
 package com.learn.algorithms.insertsort;
 
-import sun.awt.image.ImageWatched;
-
 /**
  * @author wu00y
  */

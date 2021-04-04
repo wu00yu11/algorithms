@@ -1,4 +1,4 @@
-package com.learn.algorithms.selectsort;
+package com.learn.algorithms.sort.selectsort;
 
 import java.util.Arrays;
 

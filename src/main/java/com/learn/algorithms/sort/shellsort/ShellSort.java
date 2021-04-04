@@ -1,4 +1,4 @@
-package com.learn.algorithms.shellsort;
+package com.learn.algorithms.sort.shellsort;
 
 import java.util.Arrays;
 

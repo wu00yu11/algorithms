@@ -1,4 +1,4 @@
-package com.learn.algorithms.heapsort;
+package com.learn.algorithms.sort.heapsort;
 
 /**
  * <strong>思路:</strong>

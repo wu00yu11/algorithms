@@ -1,4 +1,4 @@
-package com.learn.algorithms.insertsort;
+package com.learn.algorithms.sort.insertsort;
 
 import java.util.Arrays;
 import java.util.Random;

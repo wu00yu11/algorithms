@@ -1,6 +1,4 @@
-package com.learn.algorithms.insertsort;
-
-import sun.awt.image.ImageWatched;
+package com.learn.algorithms.sort.insertsort;
 
 /**
  * @author wu00y

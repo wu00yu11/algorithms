@@ -1,4 +1,4 @@
-package com.learn.algorithms.mergesort;
+package com.learn.algorithms.sort.mergesort;
 
 import java.util.Arrays;
 
